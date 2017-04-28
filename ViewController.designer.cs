@@ -36,6 +36,12 @@ namespace ChromeSpeechProxy
         [Outlet]
         AppKit.NSTextField _mTextUnityConnected { get; set; }
 
+        [Action ("OnClickCloseChromeProxyTab:")]
+        partial void OnClickCloseChromeProxyTab (Foundation.NSObject sender);
+
+        [Action ("OnClickOpenChromeProxyTab:")]
+        partial void OnClickOpenChromeProxyTab (Foundation.NSObject sender);
+
         [Action ("OnClickStart:")]
         partial void OnClickStart (Foundation.NSObject sender);
 

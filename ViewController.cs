@@ -34,6 +34,14 @@ namespace ChromeSpeechProxy
 			}
 		}
 
+        partial void OnClickCloseChromeProxyTab (Foundation.NSObject sender)
+        {
+        }
+
+        partial void OnClickOpenChromeProxyTab (Foundation.NSObject sender)
+        {
+        }
+
         partial void OnClickStart (Foundation.NSObject sender)
         {
             _mButtonStart.Enabled = false;

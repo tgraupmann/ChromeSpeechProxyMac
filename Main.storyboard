@@ -699,6 +699,9 @@
                                         <outlet property="representedObject" destination="XfG-lQ-9wD" id="Xks-UP-5KE"/>
                                     </connections>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="OnClickOpenChromeProxyTab:" target="XfG-lQ-9wD" id="UGk-ne-oix"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NmR-EV-oA3">
                                 <rect key="frame" x="233" y="176" width="116" height="32"/>
@@ -784,6 +787,9 @@
                                         <outlet property="representedObject" destination="XfG-lQ-9wD" id="wL3-Ay-wxd"/>
                                     </connections>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="OnClickCloseChromeProxyTab:" target="XfG-lQ-9wD" id="yDu-VJ-nzV"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
