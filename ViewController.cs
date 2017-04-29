@@ -7,6 +7,11 @@ namespace ChromeSpeechProxy
 {
 	public partial class ViewController : NSViewController
 	{
+        public static void SetProxyPort(int port)
+        {
+            
+        }
+
 		public ViewController(IntPtr handle) : base(handle)
 		{
 		}
